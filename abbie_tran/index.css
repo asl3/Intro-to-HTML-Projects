@@ -1,3 +1,41 @@
-p, h1, h2, h3 {
+
+/* Selector types: div, tag/type, id, attr
+*/
+h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    text-align: center;
+}
+p, h1, h2, h3, li {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* This is only for li items within the header nav bar */
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+  }
+  
+  header li {
+    float: right;
+  }
+  
+  header li a {
+    display: block;
+    color: rgb(22, 90, 238);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header li a:hover {
+   color: rgb(11, 34, 245);
+  }
+.content{
+    max-width: 960px;
+    margin: auto; 
 }
