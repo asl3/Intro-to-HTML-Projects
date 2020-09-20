@@ -10,7 +10,7 @@ p, h1, h2, h3, li {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-/* This is only for the header nav bar 
+/* This is only for the header nav bar */
 
 .header ul {
     list-style-type: none;
@@ -38,10 +38,10 @@ p, h1, h2, h3, li {
   .header li a:hover {
    color: rgb(11, 34, 245);
   }
-  */
-/* Center adjusts content
+  
+/* Center adjusts content*/
 .content{
     max-width: 960px;
     margin: auto; 
 }
-*/
+
